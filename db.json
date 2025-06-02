@@ -1,0 +1,40 @@
+{
+  "emails": [
+    {
+      "id": "1",
+      "from": "walter.white@los-pollos.com",
+      "subject": "Let's Cook: A New Opportunity Awaits",
+      "body": "I've been running the numbers. There's a new opportunity that could change everything. It's not just about profit – it's about securing the future. I've got the formula, and I need someone who’s ready to take this to the next level. No hesitation. No loose ends. Are you in?\n\n- W",
+      "sentAt": "2020-03-27T18:25:43.511Z",
+      "archived": false,
+      "read": true
+    },
+    {
+      "id": "2",
+      "from": "jesse.pinkman@abqtechs.com",
+      "subject": "Yo! Time to Level Up or Miss Out",
+      "body": "Yo, dude!\n\nHere’s the deal – I’ve got this crazy idea that’s gonna blow your mind. It’s not just another boring gig. This is the real stuff. I’m talking next-level, game-changing, boss-mode action. You down to make something big happen or what?\n\n- Jesse",
+      "sentAt": "2020-05-20T18:25:43.511Z",
+      "archived": true,
+      "read": true
+    },
+    {
+      "id": "3",
+      "from": "gus.fring@los-pollos.com",
+      "subject": "Business Expansion Proposal – Urgent Review",
+      "body": "Greetings,\n\nI have reviewed the recent market developments and identified a significant expansion opportunity. This is not a matter for delay. I trust you to review the attached proposal with the utmost discretion and efficiency. Precision is paramount. I will expect your response by the end of the day.\n\n- Gus",
+      "sentAt": "2020-03-18T18:25:43.511Z",
+      "archived": false,
+      "read": true
+    },
+    {
+      "id": "4",
+      "from": "saul.goodman@bettercallsaul.com",
+      "subject": "Legal Matters? Let’s Talk, Friend",
+      "body": "Hey, friend!\n\nIf you’re facing a sticky situation, or just wanna make sure you’re covered legally – I’m your guy. I’ve got the charm, the brains, and the connections to make your problems disappear. Don’t wait till it’s too late. Hit me up, and let’s talk business (the fun kind).\n\nBetter Call Saul!",
+      "sentAt": "2020-03-24T18:25:43.511Z",
+      "archived": true,
+      "read": true
+    }
+  ]
+}
