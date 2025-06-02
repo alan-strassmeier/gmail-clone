@@ -85,6 +85,10 @@ export default {
     },
     changeEmail({ toggleRead, toggleArchive, save, closeModal, changeIndex }) {
       let email = this.openedEmail
+      if (!email) {
+        console.warn('No email selected for changeEmail');
+        return;
+      }
 
       if (toggleRead) email.read = !email.read
       if (toggleArchive) email.archived = !email.archived
@@ -92,10 +96,14 @@ export default {
       if (closeModal) this.openedEmail = null
 
       if (changeIndex) {
-        let emails = this.unarchivedEmails
+        let emails = this.filteredEmails
         let currentIndex = emails.indexOf(email)
         let newEmail = emails[currentIndex + changeIndex]
-        this.openEmail(newEmail)
+        if (newEmail) {
+          this.openEmail(newEmail)
+        } else {
+          console.warn('No email found at this index.');
+        }
       }
     },
     updateEmail(email) {
